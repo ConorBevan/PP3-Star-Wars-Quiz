@@ -12,3 +12,30 @@ def display_score():
 
 def play_again():
     pass
+
+
+
+questions = {
+    "Placeholder text?: ": "A",
+    "Placeholder text?: ": "A",
+    "Placeholder text?: ": "A",
+    "Placeholder text?: ": "A",
+    "Placeholder text?: ": "A",
+    "Place older text?: ": "A",
+    "Placeholder text?: ": "A",
+    "Placeholder text?: ": "A",
+    "Placeholder text?: ": "A",
+    "Placeholder text?: ": "A",
+}
+
+options = [["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"],
+           ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"],
+           ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"],
+           ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"],
+           ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"],
+           ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"],
+           ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"],
+           ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"],
+           ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"],
+           ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"],
+           ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"]]
