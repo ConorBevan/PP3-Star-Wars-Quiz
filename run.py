@@ -1,7 +1,7 @@
 def new_game():
     
-    guesses = []
-    correct_guesses = 0
+    attempts = []
+    correct_attempts = 0
     question_num = 1
 
     for key in questions:
@@ -9,9 +9,9 @@ def new_game():
         print(key)
         for i in options[question_num-1]:
             print(i)
-        guess = input("Enter (A, B, C, D): ")
-        guess = guess.upper()
-        guesses.append(guess)
+        attempt = input("Answer: ")
+        attempt = attempt.upper()
+        attempts.append(attempt)
         question_num += 1
 
 
