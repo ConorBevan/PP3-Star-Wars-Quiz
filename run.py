@@ -43,6 +43,11 @@ def display_score(correct_attempts, attempts):
     for i in attempts:
         print(i, end=" ")
     print()
+    print("------------------------------")
+
+    print("If your score is 70% or more you are a hardcore fan. ")
+    score = int((correct_attempts/len(questions))*100)
+    print("Score: "+str(score)+"%")
 
 
 def play_again():
