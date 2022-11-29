@@ -9,7 +9,9 @@ def new_game():
         print(key)
         for i in options[question_num-1]:
             print(i)
-        
+        guess = input("Enter (A, B, C, D): ")
+        guess = guess.upper()
+        guesses.append(guess)
         question_num += 1
 
 
