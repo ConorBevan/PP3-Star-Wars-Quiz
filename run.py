@@ -45,13 +45,14 @@ def display_score(correct_attempts, attempts):
     print()
     print("------------------------------")
 
-    print("If your score is 70% or more you are a hardcore fan. ")
+    print("If your score is 70% or m ore consider yourself a hardcore fan.")
     score = int((correct_attempts/len(questions))*100)
     print("Score: "+str(score)+"%")
 
 
 def play_again():
-    
+
+    print("------------------------------")
     response = input("Do you want to play again? (yes or no): ")
     response = response.upper()
 
@@ -87,3 +88,8 @@ options = [["A. Blue", "B. Purple", "C. Green", "D. Yellow"],
 
 
 new_game()
+
+while play_again():
+    new_game()
+
+print("May the force be with you!")
