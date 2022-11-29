@@ -13,14 +13,18 @@ def new_game():
         attempt = attempt.upper()
         attempts.append(attempt)
 
-        correct_attempts = check_answer(question.get(key), attempt)
+        correct_attempts += check_answer(questions.get(key), attempt)
         question_num += 1
 
 
 def check_answer(answer, attempt):
 
     if answer == attempt:
-        print("Thats right, the force is strong in you!")
+        print("Thats right!. The force is strong in you.")
+        return 1
+    else:
+        print("Thats wrong!. Failed you have, into exile you just go.")
+        return 0
 
 
 def display_score():
