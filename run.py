@@ -12,11 +12,15 @@ def new_game():
         attempt = input("Answer: ")
         attempt = attempt.upper()
         attempts.append(attempt)
+
+        correct_attempts = check_answer(question.get(key), attempt)
         question_num += 1
 
 
-def check_answer():
-    pass
+def check_answer(answer, attempt):
+
+    if answer == attempt:
+        print("Thats right, the force is strong in you!")
 
 
 def display_score():
