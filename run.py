@@ -51,7 +51,14 @@ def display_score(correct_attempts, attempts):
 
 
 def play_again():
-    pass
+    
+    response = input("Do you want to play again? (yes or no): ")
+    response = response.upper()
+
+    if response == "YES":
+        return True
+    else:
+        return False
 
 
 questions = {
