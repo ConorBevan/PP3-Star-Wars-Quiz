@@ -1,5 +1,14 @@
 def new_game():
-    pass
+    
+    guesses = []
+    correct_guesses = 0
+    question_num = 1
+
+    for key in questions:
+        print("------------------------------")
+        print(key)
+        for i in options:
+            print(i)
 
 
 def check_answer():
@@ -12,7 +21,6 @@ def display_score():
 
 def play_again():
     pass
-
 
 
 questions = {
@@ -39,3 +47,6 @@ options = [["A. Placeholder text", "A. Placeholder text", "A. Placeholder text",
            ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"],
            ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"],
            ["A. Placeholder text", "A. Placeholder text", "A. Placeholder text", "A. Placeholder text"]]
+
+
+new_game()
