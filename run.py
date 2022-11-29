@@ -7,8 +7,10 @@ def new_game():
     for key in questions:
         print("------------------------------")
         print(key)
-        for i in options:
+        for i in options[question_num-1]:
             print(i)
+        
+        question_num += 1
 
 
 def check_answer():
@@ -29,7 +31,7 @@ questions = {
     "Placeholder text?: ": "A",
     "Placeholder text?: ": "A",
     "Placeholder text?: ": "A",
-    "Place older text?: ": "A",
+    "Placeholder text?: ": "A",
     "Placeholder text?: ": "A",
     "Placeholder text?: ": "A",
     "Placeholder text?: ": "A",
