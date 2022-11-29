@@ -16,6 +16,8 @@ def new_game():
         correct_attempts += check_answer(questions.get(key), attempt)
         question_num += 1
 
+    display_score(correct_attempts, attempts)
+
 
 def check_answer(answer, attempt):
 
@@ -27,8 +29,20 @@ def check_answer(answer, attempt):
         return 0
 
 
-def display_score():
-    pass
+def display_score(correct_attempts, attempts):
+    print("------------------------------")
+    print("Your results are displayed below:")
+    print("------------------------------")
+
+    print("Correct answers: ", end="")
+    for i in questions:
+        print(questions.get(i), end=" ")
+    print()
+
+    print("Your attempts: ", end="")
+    for i in attempts:
+        print(i, end=" ")
+    print()
 
 
 def play_again():
