@@ -33,9 +33,9 @@ questions = {
     "What is the surface of the planet Crait covered with?: ": "A",
     "What is the name of the crystal used to create lightsabers?: ": "D",
     "Where does Yoda live when he first trains Luke Skywalker?: ": "A",
-    "Placeholder text?: ": "A",
-    "Placeholder text?: ": "A",
-    "Placeholder text?: ": "A",
+    "Which hand does Luke Skywalker lose?: ": "A",
+    "What is Chewbacca’s weapon of choice?: ": "D",
+    "What nickname does Han Solo call Luke Skywalker?: ": "C",
 }
 
 options = [["A. Blue", "B. Purple", "C. Green", "D. Yellow"],
@@ -45,9 +45,9 @@ options = [["A. Blue", "B. Purple", "C. Green", "D. Yellow"],
            ["A. Salt", "B. Snow", "C. Sand", "D. Soil"],
            ["A. Celestite", "B. Pyrite", "C. Opal", "D. Kyber"],
            ["A. Tatooine", "B. Dagobah", "C. Jakku", "D. Yavin"],
-           ["A. Placeholder text", "B. Placeholder text", "C. Placeholder text", "D. Placeholder text"],
-           ["A. Placeholder text", "B. Placeholder text", "C. Placeholder text", "D. Placeholder text"],
-           ["A. Placeholder text", "B. Placeholder text", "C. Placeholder text", "D. Placeholder text"],]
+           ["A. Right", "B. Left", "C. Both", "D. Neither"],
+           ["A. Blaster", "B. Lightsaber", "C. Club", "D. Bowcaster"],
+           ["A. Buckaroo", "B. Skydancer", "C. Kid", "D. Lukie"]]
 
 
 new_game()
