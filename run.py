@@ -51,10 +51,12 @@ def new_game():
 def check_answer(answer, attempt):
 
     if answer == attempt:
-        print("Thats right!. The force is strong in you.")
+        print(colorama.Fore.GREEN + "Thats right!")
+        print(colorama.Fore.RESET)
         return 1
     else:
-        print("Thats wrong!. Failed you have, into exile you just go.")
+        print(colorama.Fore.RED + "Thats wrong!")
+        print(colorama.Fore.RESET)
         return 0
 
 
