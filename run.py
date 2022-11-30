@@ -28,7 +28,9 @@ options = [["A. Blue", "B. Purple", "C. Green", "D. Yellow"],
 
 def new_game():
     """
-    Placeholder text 
+    Function loops through question list and options list to 
+    display question with corresponding option list in order.
+    If answer is correct the score increseases by 1.
     """
     attempts = []
     correct_attempts = 0
@@ -51,7 +53,9 @@ def new_game():
 
 def check_answer(answer, attempt):
     """
-    Placeholder text 
+    Checks if the attmept is the same as the answer, if 
+    its correct it prints thats right and returns 1 to the score, 
+    if its wrong it prints thats wrong and returns 0 to the score.
     """
     if answer == attempt:
         print(colorama.Fore.GREEN + "Thats right!")
@@ -65,7 +69,9 @@ def check_answer(answer, attempt):
 
 def display_score(correct_attempts, attempts):
     """
-    Placeholder text 
+    Shows correct answers and users answers and calulates
+    the score divides it by 10 and mulitplies by 100 to
+    give a percentage. 
     """
     print("------------------------------")
     print("Your results are displayed below:")
@@ -89,7 +95,8 @@ def display_score(correct_attempts, attempts):
 
 def play_again():
     """
-    Placeholder text 
+    If user replies yes the new_game() will display,
+    if user replies no message is printed. 
     """
     print("------------------------------")
     response = input("Do you want to play again? (yes or no): ")
@@ -105,7 +112,8 @@ def play_again():
 
 def main():
     """
-    Placeholder text 
+    This functions runs all pograms when called at the 
+    end of the code. 
     """
     print("")
     print("How strong is the force within you?")
