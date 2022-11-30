@@ -27,14 +27,6 @@ options = [["A. Blue", "B. Purple", "C. Green", "D. Yellow"],
            ["A. Buckaroo", "B. Skydancer", "C. Kid", "D. Lukie"]]
 
 
-print("")
-print("How strong is the force within you?")
-print("In this quiz, you will be aksed a total of 10 Questions")
-print("These are multiple choice questions")
-print("You must answer with either (A, B, C or D)")
-print("To move on to the next question type in your answer and hit enter\n")
-
-
 def new_game():
     
     attempts = []
@@ -101,9 +93,18 @@ def play_again():
         return False
 
 
-new_game()
+def main():
 
-while play_again():
+    print("")
+    print("How strong is the force within you?")
+    print("In this quiz, you will be aksed a total of 10 Questions")
+    print("These are multiple choice questions")
+    print("You must answer with either (A, B, C or D)")
+    print("To move on type in your answer and hit enter\n")
     new_game()
+    while play_again():
+        new_game()
+    print("May the force be with you!")
 
-print("May the force be with you!")
+
+main()
