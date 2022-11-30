@@ -8,7 +8,7 @@ questions = {
     "How many parsecs did Han Solo complete the Kessel Run?: ": "A",
     "What is the surface of the planet Crait covered with?: ": "A",
     "What is the name of the crystal used to create lightsabers?: ": "D",
-    "Where does Yoda live when he first trains Luke Skywalker?: ": "A",
+    "Where does Yoda live when he first trains Luke Skywalker?: ": "B",
     "Which hand does Luke Skywalker lose?: ": "A",
     "What is Chewbacca’s weapon of choice?: ": "D",
     "What nickname does Han Solo call Luke Skywalker?: ": "C",
@@ -88,7 +88,7 @@ def display_score(correct_attempts, attempts):
     print()
     print("------------------------------")
 
-    print("If your score is 70% or m ore consider yourself a hardcore fan.")
+    print("If your score is 70% or more consider yourself one with the force.")
     score = int((correct_attempts/len(questions))*100)
     print("Score: "+str(score)+"%")
 
