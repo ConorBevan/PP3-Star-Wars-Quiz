@@ -27,6 +27,14 @@ options = [["A. Blue", "B. Purple", "C. Green", "D. Yellow"],
            ["A. Buckaroo", "B. Skydancer", "C. Kid", "D. Lukie"]]
 
 
+print("")
+print("How strong is the force within you?")
+print("In this quiz, you will be aksed a total of 10 Questions")
+print("These are multiple choice questions")
+print("You must answer with either (A, B, C or D)")
+print("To move on to the next question type in your answer and hit enter\n")
+
+
 def new_game():
     
     attempts = []
