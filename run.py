@@ -124,7 +124,7 @@ def main():
     new_game()
     while play_again():
         new_game()
-    print("May the force be with you!")
+    print("Goodbye and may the force be with you!")
 
 
 main()
