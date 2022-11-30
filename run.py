@@ -1,7 +1,6 @@
 import colorama
 colorama.init()
 
-
 questions = {
     "What is the colour of Mace Windu's lightsaber?: ": "B",
     "Who or what killed Boba Fett?: ": "C",
@@ -28,7 +27,9 @@ options = [["A. Blue", "B. Purple", "C. Green", "D. Yellow"],
 
 
 def new_game():
-    
+    """
+    Placeholder text 
+    """
     attempts = []
     correct_attempts = 0
     question_num = 1
@@ -49,7 +50,9 @@ def new_game():
 
 
 def check_answer(answer, attempt):
-
+    """
+    Placeholder text 
+    """
     if answer == attempt:
         print(colorama.Fore.GREEN + "Thats right!")
         print(colorama.Fore.RESET)
@@ -61,6 +64,9 @@ def check_answer(answer, attempt):
 
 
 def display_score(correct_attempts, attempts):
+    """
+    Placeholder text 
+    """
     print("------------------------------")
     print("Your results are displayed below:")
     print("------------------------------")
@@ -82,11 +88,15 @@ def display_score(correct_attempts, attempts):
 
 
 def play_again():
-
+    """
+    Placeholder text 
+    """
     print("------------------------------")
     response = input("Do you want to play again? (yes or no): ")
     response = response.upper()
 
+    while response not in {'YES', 'NO'}:
+        response = input("Invalid answer, try again\n")
     if response == "YES":
         return True
     else:
@@ -94,7 +104,9 @@ def play_again():
 
 
 def main():
-
+    """
+    Placeholder text 
+    """
     print("")
     print("How strong is the force within you?")
     print("In this quiz, you will be aksed a total of 10 Questions")
