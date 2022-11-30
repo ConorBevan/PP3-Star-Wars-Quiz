@@ -42,8 +42,9 @@ def new_game():
         for i in options[question_num-1]:
             print(i)
         attempt = input("Answer: ")
-        attempt = attempt.upper()
         attempts.append(attempt)
+        while attempt not in ('A', 'B', 'C', 'D',):
+            attempt = input("Invalid attempt must choose from (A,B,C,D)\n")
 
         correct_attempts += check_answer(questions.get(key), attempt)
         question_num += 1
