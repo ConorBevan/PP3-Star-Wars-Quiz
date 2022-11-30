@@ -1,31 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Star Wars Quiz
 
-Welcome ConorBevan,
+Star Wars Quiz is a Pyhton terminal game, which runs in the Code Institute mock terminal on Heroku. The terminals main purpose is for users to test their Star Wars knowledge. Anyone can take the quiz. 
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+![Responsice Mockup](docs/)
 
-## Reminders
+## How to Play
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+The user will need to reply yes or no to strat the quiz.
 
-## Creating the Heroku app
+There is 10 questions to answer with the options (A, B, C, D).
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+Users will be given a score at the end of the quiz.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+You can play again when prompted by replying yes or is you say no the game ends.
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## Features
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+### Existing Features
 
-Connect your GitHub repository and deploy as normal.
+- As a user I, want to play agame of RPS with no issues.
+- As a user I, want to be able to seamlessly navigate the site. 
+- As a user I, want to be able to view the webiste on any device and have user friendly navigation.
 
-## Constraints
+- __Intro Screen:__
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+- Placeholder Text 
 
------
-Happy coding!
+![Intro Screen](docs/)
+
+- __Y/N Input:__
+
+- Placeholder Text 
+
+![Yes/No Input](docs/)
+
+- __Quiz Questions:__
+
+- Placeholder Text 
+
+![Quiz Questions](docs/)
+
+- __Score:__
+
+- Placeholder Text 
+
+![Score](docs/)
+
+- __Play Again Input:__
+
+- Placeholder Text 
+
+![Play Agian Input](docs/)
+
+### Future Features
+
+  - Double the amount of available questions and make it a random 10 from the list.
+
+## Data Models
+
+  - I used lists within my code to store my data for my quiz questions and answers.
+
+![Data Models](docs/)
+
+## Testing 
+
+I have manually tested this project by doing the following
+
+- Python - No errors were found when passing through the official [(PEP8) linter](https://pep8ci.herokuapp.com/).
+
+- Tested in my local terminal and the Code Institute heroku terminal. 
+
+### Bugs
+
+I haven't come across any unfixed bugs to make note of. 
+
+# Deployment 
+
+The live link can be found here - 
+
+- Fork or clone this repository 
+- Create a new Heroku app
+- Set the buildpacks to Python and NodeJS in that order
+- Link the Heroku app to the repository 
+- Click on Deploy 
+
+
+# Credits 
+
+- Placeholder text 
