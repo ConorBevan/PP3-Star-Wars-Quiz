@@ -118,10 +118,11 @@ def main():
     """
     print("")
     print("Are you one with the force?")
-    print("In this quiz, you will be aksed a total of 10 Questions")
-    print("These are multiple choice questions")
-    print("You must answer with either (A, B, C or D)")
-    print("To move on type in your answer and hit enter\n")
+    print("In this quiz, you will be aksed a total of 10 Questions.")
+    print("This is a multiple choice quiz.")
+    print("You must answer from options (A, B, C or D).")
+    print("To move to the next question, pick your answer from the given")
+    print("choices then hit the enter button.\n")
     new_game()
     while play_again():
         new_game()
