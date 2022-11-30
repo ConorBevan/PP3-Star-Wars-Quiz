@@ -116,7 +116,7 @@ def main():
     end of the code. 
     """
     print("")
-    print("How strong is the force within you?")
+    print("Are you one with the force?")
     print("In this quiz, you will be aksed a total of 10 Questions")
     print("These are multiple choice questions")
     print("You must answer with either (A, B, C or D)")
