@@ -45,7 +45,7 @@ def start_game():
         attempt = input("Answer: ")
         attempts.append(attempt)
         while attempt not in ('A', 'B', 'C', 'D',):
-            attempt = input("Invalid attempt must choose from (A,B,C,D)\n")
+            attempt = input("*Invalid attempt must choose from (A,B,C,D)*\n")
 
         correct_attempts += check_answer(questions.get(key), attempt)
         question_num += 1
@@ -60,11 +60,11 @@ def check_answer(answer, attempt):
     if its wrong it prints thats wrong and returns 0 to the score.
     """
     if answer == attempt:
-        print(colorama.Fore.GREEN + "Thats right!")
+        print(colorama.Fore.GREEN + "Correct Answer!")
         print(colorama.Fore.RESET)
         return 1
     else:
-        print(colorama.Fore.RED + "Thats wrong!")
+        print(colorama.Fore.RED + "Wrong Answer!")
         print(colorama.Fore.RESET)
         return 0
 
