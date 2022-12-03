@@ -26,7 +26,7 @@ options = [["A. Blue", "B. Purple", "C. Green", "D. Yellow"],
            ["A. Buckaroo", "B. Skydancer", "C. Kid", "D. Lukie"]]
 
 
-def new_game():
+def start_game():
     """
     Function loops through question list and options list to 
     display question with corresponding option list in order.
@@ -38,7 +38,8 @@ def new_game():
 
     for key in questions:
         print("------------------------------")
-        print(key)
+        print(colorama.Fore.LIGHTYELLOW_EX + key)
+        print(colorama.Fore.RESET)
         for i in options[question_num-1]:
             print(i)
         attempt = input("Answer: ")
@@ -100,11 +101,10 @@ def play_again():
     if user replies no message is printed. 
     """
     print("------------------------------")
-    response = input("Do you want to play again? (yes or no): ")
-    response = response.upper()
+    response = input("Do you want to play again? (YES or NO): ")
 
     while response not in {'YES', 'NO'}:
-        response = input("Invalid answer, try again\n")
+        response = input("Invalid input, try again\n")
     if response == "YES":
         return True
     else:
@@ -117,15 +117,15 @@ def main():
     end of the code. 
     """
     print("")
-    print("Are you one with the force?")
+    print("Do you consider yourself one with the force?")
     print("In this quiz, you will be aksed a total of 10 Questions.")
     print("This is a multiple choice quiz.")
-    print("You must answer from options (A, B, C or D).")
+    print("Your answers must be from options (A, B, C or D).")
     print("To move to the next question, pick your answer from the given")
     print("choices then hit the enter button.\n")
-    new_game()
+    start_game()
     while play_again():
-        new_game()
+        start_game()
     print("Goodbye and may the force be with you!")
 
 
