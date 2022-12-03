@@ -22,7 +22,7 @@ You can play again when prompted by replying YES or NO.
 
 - This sstart section is used to explian the rules to the user about to take the Quiz.
 
-![Intro Screen](docs/Screenshot1)
+![Intro Screen](docs/Screenshot1.png)
 
 - __Quiz Questions:__
 
@@ -31,21 +31,21 @@ You can play again when prompted by replying YES or NO.
 - If you get it right a message is printed,same if you get one wrong.
 - if you put in a invlaid inout a message is prompted and you get to type another answer.
 
-![Quiz Questions](docs/Screenshot2)
+![Quiz Questions](docs/Screenshot2.png)
 
 - __Score:__
 
 - The correct answers and the attempted answers are displayed to compare.
 - Your score is displayed whihcn is calcutaled by each correct attmept which equals 1 divided by the lenth og questions (10) and multiplied by 100 withc a string at the end to make out a percenatge score. 
 
-![Score](docs/Screenshot3)
+![Score](docs/Screenshot3.png)
 
 - __Play Again Input:__
 
 - Here you have the option to play the quix again but inputtinf YES. 
 - If you answer NO, a message is printed and game ends. 
 
-![Play Agian Input](docs/Screenshot4)
+![Play Agian Input](docs/Screenshot4.png)
 
 ### Future Features
 
@@ -53,15 +53,17 @@ You can play again when prompted by replying YES or NO.
 
 ## Data Models
 
-  - I used a dictionary to store my data for my quiz questions and a loist of list to store the corresponding answers.
+  - I used a dictionary to store my data for my quiz questions and a list of lists to store the corresponding answers.
 
-![Data Models](docs/Screenshot5)
+![Data Models](docs/Screenshot5.png)
 
 ## Testing 
 
 I have manually tested this project by doing the following
 
 - Python - No errors were found when passing through the official [(PEP8) linter](https://pep8ci.herokuapp.com/).
+
+![PEP8](docs/Screenshot6.png)
 
 - Tested in my local terminal and the Code Institute heroku terminal. 
 
