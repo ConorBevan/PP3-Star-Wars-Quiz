@@ -16,15 +16,13 @@ You can play again when prompted by replying YES or NO.
 
 ## Features
 
-### Existing Features
-
-- __Intro Screen:__
+### Intro Screen:
 
 - This sstart section is used to explian the rules to the user about to take the Quiz.
 
 ![Intro Screen](docs/Screenshot1.png)
 
-- __Quiz Questions:__
+### Quiz Questions:
 
 - Each question is highlighted in yellow to stand out to the user.
 - To answer the question you must input (A,B,C,D).
@@ -33,14 +31,14 @@ You can play again when prompted by replying YES or NO.
 
 ![Quiz Questions](docs/Screenshot2.png)
 
-- __Score:__
+### Score:
 
 - The correct answers and the attempted answers are displayed to compare.
 - Your score is displayed whihcn is calcutaled by each correct attmept which equals 1 divided by the lenth og questions (10) and multiplied by 100 withc a string at the end to make out a percenatge score. 
 
 ![Score](docs/Screenshot3.png)
 
-- __Play Again Input:__
+### Play Again Input:
 
 - Here you have the option to play the quix again but inputtinf YES. 
 - If you answer NO, a message is printed and game ends. 
@@ -53,13 +51,15 @@ You can play again when prompted by replying YES or NO.
 
 ## Data Models
 
-  - I used a dictionary to store my data for my quiz questions and a list of lists to store the corresponding answers.
+I used a dictionary to store my data for my quiz questions and a list of lists to store the corresponding answers.
 
 ![Data Models](docs/Screenshot5.png)
 
 ## Testing 
 
-I have manually tested this project by doing the following
+### Validator Testing
+
+I have manually tested this project by doing the following:
 
 - Python - No errors were found when passing through the official [(PEP8) linter](https://pep8ci.herokuapp.com/).
 
@@ -69,7 +69,7 @@ I have manually tested this project by doing the following
 
 ### Bugs
 
-- At first I didnt have the correct input validation and if you put a lowercase (a,b,c,d) and then put the correct input of (A,B,C,D) it would still co e up as correct. So i chnaged ti that you must answer in capitla letters to avoid this from happening. Otherwise I have had no other bug issues. 
+At first I didnt have the correct input validation and if you put a lowercase (a,b,c,d) and then put the correct input of (A,B,C,D) it would still co e up as correct. So i chnaged ti that you must answer in capitla letters to avoid this from happening. Otherwise I have had no other bug issues. 
 
 # Deployment 
 
