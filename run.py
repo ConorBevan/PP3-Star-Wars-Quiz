@@ -50,7 +50,7 @@ def start_game():
         correct_attempts += check_answer(questions.get(key), attempt)
         question_num += 1
 
-    display_score(correct_attempts, attempts)
+    quiz_score(correct_attempts)
 
 
 def check_answer(answer, attempt):
@@ -69,35 +69,27 @@ def check_answer(answer, attempt):
         return 0
 
 
-def display_score(correct_attempts, attempts):
+def quiz_score(correct_attempts):
     """
-    Shows correct answers and users answers and calulates
-    the score divides it by 10 and mulitplies by 100 to
-    give a percentage.
+    Shows the correct answers and calulates the score divides it by 10
+    and mulitplies by 100 to give a percentage.
     """
     print("------------------------------")
     print("Your results are displayed below:")
     print("------------------------------")
 
-    print("Correct answers: ", end="")
+    print("The Correct Quiz Answers: ", end="")
     for i in questions:
         print(questions.get(i), end=" ")
     print()
 
-    print("Your attempts: ", end="")
-    for i in attempts:
-        print(i, end=" ")
-    print()
-    print("------------------------------")
-
-    print("If your score is 70% or more consider yourself one with the force.")
     score = int((correct_attempts/len(questions))*100)
-    print("Score: "+str(score)+"%")
+    print("Your Score: "+str(score)+"%")
 
 
 def play_again():
     """
-    If user replies yes the new_game() will display,
+    If user replies yes the start_game() will display,
     if user replies no message is printed.
     """
     print("------------------------------")
@@ -126,7 +118,9 @@ def main():
     start_game()
     while play_again():
         start_game()
+    print("")
     print("Goodbye and may the force be with you!")
+    print("")
 
 
 main()
