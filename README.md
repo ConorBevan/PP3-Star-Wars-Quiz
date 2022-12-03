@@ -33,14 +33,14 @@ You can play again when prompted by replying YES or NO.
 
 ### Score:
 
-- The correct answers and the attempted answers are displayed to compare.
-- Your score is displayed whihcn is calcutaled by each correct attmept which equals 1 divided by the lenth og questions (10) and multiplied by 100 withc a string at the end to make out a percenatge score. 
+- The correct answers are displayed.
+- Your score is displayed which is calcutaled by each correct attempts which equals 1 divided by the length of questions (10) and multiplied by 100 with a string at the end to make it look like a percenatge score. 
 
 ![Score](docs/Screenshot3.png)
 
 ### Play Again Input:
 
-- Here you have the option to play the quix again but inputtinf YES. 
+- Here you have the option to play the quiz again but inputting YES. 
 - If you answer NO, a message is printed and game ends. 
 
 ![Play Agian Input](docs/Screenshot4.png)
