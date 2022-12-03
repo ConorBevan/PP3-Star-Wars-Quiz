@@ -12,55 +12,50 @@ There is 10 questions to answer with the options (A, B, C, D).
 
 Users will be given a score at the end of the quiz.
 
-You can play again when prompted by replying yes or is you say no the game ends.
+You can play again when prompted by replying YES or NO.
 
 ## Features
 
 ### Existing Features
 
-- As a user I, want to play agame of RPS with no issues.
-- As a user I, want to be able to seamlessly navigate the site. 
-- As a user I, want to be able to view the webiste on any device and have user friendly navigation.
-
 - __Intro Screen:__
 
-- Placeholder Text 
+- This sstart section is used to explian the rules to the user about to take the Quiz.
 
-![Intro Screen](docs/)
-
-- __Y/N Input:__
-
-- Placeholder Text 
-
-![Yes/No Input](docs/)
+![Intro Screen](docs/Screenshot1)
 
 - __Quiz Questions:__
 
-- Placeholder Text 
+- Each question is highlighted in yellow to stand out to the user.
+- To answer the question you must input (A,B,C,D).
+- If you get it right a message is printed,same if you get one wrong.
+- if you put in a invlaid inout a message is prompted and you get to type another answer.
 
-![Quiz Questions](docs/)
+![Quiz Questions](docs/Screenshot2)
 
 - __Score:__
 
-- Placeholder Text 
+- The correct answers and the attempted answers are displayed to compare.
+- Your score is displayed whihcn is calcutaled by each correct attmept which equals 1 divided by the lenth og questions (10) and multiplied by 100 withc a string at the end to make out a percenatge score. 
 
-![Score](docs/)
+![Score](docs/Screenshot3)
 
 - __Play Again Input:__
 
-- Placeholder Text 
+- Here you have the option to play the quix again but inputtinf YES. 
+- If you answer NO, a message is printed and game ends. 
 
-![Play Agian Input](docs/)
+![Play Agian Input](docs/Screenshot4)
 
 ### Future Features
 
-  - Double the amount of available questions and make it a random 10 from the list.
+  - I would like to double the amount of available questions and make it so a random 10 questions are shown. 
 
 ## Data Models
 
-  - I used lists within my code to store my data for my quiz questions and answers.
+  - I used a dictionary to store my data for my quiz questions and a loist of list to store the corresponding answers.
 
-![Data Models](docs/)
+![Data Models](docs/Screenshot5)
 
 ## Testing 
 
@@ -72,7 +67,7 @@ I have manually tested this project by doing the following
 
 ### Bugs
 
-I haven't come across any unfixed bugs to make note of. 
+- At first I didnt have the correct input validation and if you put a lowercase (a,b,c,d) and then put the correct input of (A,B,C,D) it would still co e up as correct. So i chnaged ti that you must answer in capitla letters to avoid this from happening. Otherwise I have had no other bug issues. 
 
 # Deployment 
 
@@ -84,7 +79,8 @@ The live link can be found here -
 - Link the Heroku app to the repository 
 - Click on Deploy 
 
-
 # Credits 
 
-- Placeholder text 
+- This websiute and the courde content was used for my database -  (https://realpython.com/python-quiz-application/)
+- Colorama was used to add some color to my code in terminal - (https://pypi.org/project/colorama/)
+- This video was used to show how to use colorama properly - (https://www.youtube.com/watch?v=u51Zjlnui4Y)

@@ -28,7 +28,7 @@ options = [["A. Blue", "B. Purple", "C. Green", "D. Yellow"],
 
 def start_game():
     """
-    Function loops through question list and options list to 
+    Function loops through question list and options list to
     display question with corresponding option list in order.
     If answer is correct the score increseases by 1.
     """
@@ -55,8 +55,8 @@ def start_game():
 
 def check_answer(answer, attempt):
     """
-    Checks if the attmept is the same as the answer, if 
-    its correct it prints thats right and returns 1 to the score, 
+    Checks if the attmept is the same as the answer, if
+    its correct it prints thats right and returns 1 to the score,
     if its wrong it prints thats wrong and returns 0 to the score.
     """
     if answer == attempt:
@@ -73,7 +73,7 @@ def display_score(correct_attempts, attempts):
     """
     Shows correct answers and users answers and calulates
     the score divides it by 10 and mulitplies by 100 to
-    give a percentage. 
+    give a percentage.
     """
     print("------------------------------")
     print("Your results are displayed below:")
@@ -98,7 +98,7 @@ def display_score(correct_attempts, attempts):
 def play_again():
     """
     If user replies yes the new_game() will display,
-    if user replies no message is printed. 
+    if user replies no message is printed.
     """
     print("------------------------------")
     response = input("Do you want to play again? (YES or NO): ")
@@ -113,8 +113,8 @@ def play_again():
 
 def main():
     """
-    This functions runs all pograms when called at the 
-    end of the code. 
+    This functions runs all pograms when called at the
+    end of the code.
     """
     print("")
     print("Do you consider yourself one with the force?")
