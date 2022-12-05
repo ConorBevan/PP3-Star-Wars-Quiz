@@ -94,11 +94,11 @@ def play_again():
     if user replies no message is printed.
     """
     print("------------------------------")
-    response = input("Do you want to play again? (YES or NO): ")
+    response = input("Do you want to play again? (yes or no): ")
 
-    while response not in {'YES', 'NO'}:
+    while response not in {'yes', 'no'}:
         response = input("Invalid input, try again\n")
-    if response == "YES":
+    if response == "yes":
         return True
     else:
         return False
@@ -106,8 +106,8 @@ def play_again():
 
 def main():
     """
-    This functions runs all pograms when called at the
-    end of the code.
+    This functions runs all pograms when the main() is
+    called at the end of the code.
     """
     print("")
     print("Do you consider yourself one with the force?")
