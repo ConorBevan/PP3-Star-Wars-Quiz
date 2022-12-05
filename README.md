@@ -75,7 +75,7 @@ I have manually tested this project by doing the following:
 
 ### Bugs
 
-At first I didnt have the correct input validation and if you put a lowercase (a,b,c,d) and then put the correct input of (A,B,C,D) it would still co e up as correct. So i chnaged ti that you must answer in capitla letters to avoid this from happening. Otherwise I have had no other bug issues. 
+At first I didnt have the correct input validation and if you put a lowercase (a,b,c,d) it would be wrong cause my while statemnt was strict on having to sumbit capital letters. So I chnaged it by adding .lower() so my validation was completed correctly. 
 
 # Deployment 
 
@@ -89,6 +89,7 @@ The live link can be found here -
 
 # Credits 
 
+- I used this video as inspiration for my code but I expanded and added from this base - (https://www.youtube.com/watch?v=YScd9FqGAZs)
 - This site was used to give inspiration for my database and better understand the use of dictionaries in python -  (https://realpython.com/python-quiz-application/)
 - Colorama was used to add some color to my quiz in the terminal - (https://pypi.org/project/colorama/)
 - This was used by my mentor to explain how to change my inputs to accept both uppercase and lowercase inputs of the same value - (https://stackoverflow.com/questions/9257094/how-to-change-a-string-into-uppercase)
