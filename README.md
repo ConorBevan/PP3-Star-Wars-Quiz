@@ -55,6 +55,12 @@ I used a dictionary to store my data for my quiz questions and a list of lists t
 
 ![Data Models](docs/Screenshot5.png)
 
+## Logic
+
+### Flowchart 
+
+![Flowchart](docs/Screenshot7.png)
+
 ## Testing 
 
 ### Validator Testing
