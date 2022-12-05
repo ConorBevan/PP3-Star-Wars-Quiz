@@ -20,7 +20,7 @@ You can play again when prompted by replying YES or NO.
 
 - This sstart section is used to explian the rules to the user about to take the Quiz.
 
-![Intro Screen](docs/Screenshot1.png)
+![Intro Screen](docs/Screenshot1.png) 
 
 ### Quiz Questions:
 
