@@ -59,7 +59,6 @@ def check_answer(answer, attempt):
     its correct it prints thats right and returns 1 to the score,
     if its wrong it prints thats wrong and returns 0 to the score.
     """
-    
     if answer == attempt.upper():
         print(colorama.Fore.GREEN + "Correct Answer!")
         print(colorama.Fore.RESET)
@@ -91,13 +90,13 @@ def quiz_score(correct_attempts):
 def play_again():
     """
     If user replies yes the start_game() will display,
-    if user replies no message is printed.
+    if user replies no goodbye message is printed.
     """
     print("------------------------------")
-    response = input("Do you want to play again? (yes or no): ")
+    response = input("Do you want to play again? (yes or no): ").lower()
 
     while response not in {'yes', 'no'}:
-        response = input("Invalid input, try again\n")
+        response = input("Invalid input, try again\n").lower()
     if response == "yes":
         return True
     else:
