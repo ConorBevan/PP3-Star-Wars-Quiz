@@ -89,6 +89,6 @@ The live link can be found here -
 
 # Credits 
 
-- This websiute and the courde content was used for my database -  (https://realpython.com/python-quiz-application/)
-- Colorama was used to add some color to my code in terminal - (https://pypi.org/project/colorama/)
-- This video was used to show how to use colorama properly - (https://www.youtube.com/watch?v=u51Zjlnui4Y)
+- This site was used to give inspiration for my database and better understand the use of dictionaries in python -  (https://realpython.com/python-quiz-application/)
+- Colorama was used to add some color to my quiz in the terminal - (https://pypi.org/project/colorama/)
+- This was used by my mentor to explain how to change my inputs to accept both uppercase and lowercase inputs of the same value - (https://stackoverflow.com/questions/9257094/how-to-change-a-string-into-uppercase)
