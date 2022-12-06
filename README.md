@@ -6,13 +6,13 @@ Star Wars Quiz is a Python terminal game, which runs in the Code Institute mock 
 
 ## How to Play
 
-There is 10 questions to answer with the options (A, B, C, D).
+- There is 10 questions to answer with the options (A, B, C, D).
 
-To move onto the next question you must select and option and press enter key to submit your answer and next question will generate.
+- To move onto the next question you must select and option and press enter key to submit your answer and next question will generate.
 
-Users will be given a score at the end of the quiz.
+- Users will be given a score at the end of the quiz.
 
-You can play again when prompted by replying yes or no.
+- You can play again when prompted by replying yes or no.
 
 ## Features
 
