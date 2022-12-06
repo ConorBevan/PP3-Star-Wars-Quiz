@@ -2,7 +2,7 @@
 
 Star Wars Quiz is a Python terminal game, which runs in the Code Institute mock terminal on Heroku. The terminals main purpose is for users to test their Star Wars knowledge. Anyone is eligible to take the quiz. 
 
-![Responsice Mockup](docs/)
+![Responsice Mockup](docs/Screenshot8.png)
 
 ## How to Play
 
@@ -79,10 +79,10 @@ At first I didnt have the correct input validation and if you put a lowercase (a
 
 # Deployment 
 
-The live link can be found here - 
+The live link can be found here - https://star-wars-quiz01.herokuapp.com/
 
-- Fork or clone this repository 
 - Create a new Heroku app
+- Convig Vars
 - Set the buildpacks to Python and NodeJS in that order
 - Link the Heroku app to the repository 
 - Click on Deploy 
