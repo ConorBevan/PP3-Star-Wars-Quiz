@@ -7,7 +7,7 @@ questions = {
     "Luke Skywalker's uncle and aunt are called Owen and...?: ": "C",
     "How many parsecs did Han Solo complete the Kessel Run?: ": "A",
     "What is the surface of the planet Crait covered with?: ": "A",
-    "What is the name of the crystal used to create lightsabers?: ": "D",
+    "What is the name of the crystal used in lightsabers?: ": "D",
     "Where does Yoda live when he first trains Luke Skywalker?: ": "B",
     "Which hand does Luke Skywalker lose?: ": "A",
     "What is Chewbacca’s weapon of choice?: ": "D",
@@ -90,7 +90,8 @@ def quiz_score(correct_attempts):
 def play_again():
     """
     If user replies yes the start_game() will display,
-    if user replies no goodbye message is printed.
+    if user replies no goodbye message is printed and the
+    game ends.
     """
     print("------------------------------")
     response = input("Do you want to play again? (yes or no): ").lower()
