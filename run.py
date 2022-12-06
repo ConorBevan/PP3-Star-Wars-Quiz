@@ -42,7 +42,7 @@ def start_game():
         print(colorama.Fore.RESET)
         for i in options[question_num-1]:
             print(i)
-        attempt = input("Answer: ")
+        attempt = input("Answer: \n")
         attempts.append(attempt)
         while attempt not in ('A', 'B', 'C', 'D', 'a', 'b', 'c', 'd'):
             attempt = input("*Invalid attempt must choose from (A,B,C,D)*\n")
@@ -78,7 +78,7 @@ def quiz_score(correct_attempts):
     print("Your results are displayed below:")
     print("------------------------------")
 
-    print("The Correct Quiz Answers: ", end="")
+    print("The Correct Quiz Answers: \n", end="")
     for i in questions:
         print(questions.get(i), end=" ")
     print()
@@ -94,7 +94,7 @@ def play_again():
     game ends.
     """
     print("------------------------------")
-    response = input("Do you want to play again? (yes or no): ").lower()
+    response = input("Do you want to play again? (yes or no): \n").lower()
 
     while response not in {'yes', 'no'}:
         response = input("Invalid input, try again\n").lower()
